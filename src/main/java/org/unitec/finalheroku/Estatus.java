@@ -1,10 +1,7 @@
 
 package org.unitec.finalheroku;
 
-/**
- *
- * @author sombra
- */
+
 public class Estatus {
     private boolean success;
     private String mensaje;
