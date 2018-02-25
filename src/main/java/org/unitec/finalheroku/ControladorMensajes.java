@@ -18,7 +18,7 @@ public class ControladorMensajes {
     @Autowired RepositorioMensajito repoMensa;
     
     
-    //BUscar todos
+    //Buscar todos
     @CrossOrigin
    @RequestMapping(value="/mensajito",method=RequestMethod.GET,
            headers={"Accept=application/json"})
